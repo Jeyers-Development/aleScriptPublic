@@ -1,0 +1,18 @@
+utilz py
+
+version;=1.0
+
+print'Calculator [+,-,*,/,^]'
+print~version
+
+@rep_ignore
+
+py.num1 = input('#1: ')
+py.num2 = input('#2: ')
+py.symbol = input('sym: ')
+
+print"Result:"
+
+math(int(num1),int(num2),symbol)
+
+@again
